@@ -13,7 +13,7 @@ pip install -e .
 ```
 ### 2. Dataset
 
-Load Dataset from https://toothfairy3.grand-challenge.org/dataset/
+Load Dataset from https://www.codabench.org/competitions/6468/
 
 ### 3. Preprocessing
 
@@ -31,13 +31,13 @@ Train by nnUNetv2.
 Run script:
 
 ```
-nnUNetv2_train 302 3d_fullres
+nnUNetv2_train 302 3d_fullres all
 ```
 
 
 ### 5. Inference
 
-Test by nnUNetv2 with post-processing. 
+Test by nnUNetv2. 
 
 Run script:
 
